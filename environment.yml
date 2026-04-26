@@ -1,0 +1,43 @@
+name: airepurposer
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.10
+
+  # Core
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Network analysis
+  - networkx
+
+  # Cheminformatics
+  - rdkit
+
+  # APIs / utils
+  - requests
+  - tqdm
+  - joblib
+
+  # Docking tools (Step 6)
+  - openbabel
+  - autodock-vina
+
+  # ⚠️ fpocket (if available)
+  # If this fails, install manually
+  - fpocket
+
+  - pip
+  - pip:
+      - chembl_webresource_client
+      - gprofiler-official
+      - plotly

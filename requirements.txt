@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+networkx
+requests
+tqdm
+joblib
+chembl_webresource_client
+gprofiler-official
+plotly
+rdkit
+biopython
+streamlit
